@@ -1,0 +1,27 @@
+{
+  "name": "personal_web_portal",
+  "version": "1.0.0",
+  "description": "this is a public site to host apps i have created, with a login for access to resource management and personal documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*.unit.js",
+    "start": "node src/server.js"
+  },
+  "author": "Rob Fitzgerald",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "config": "^1.19.0",
+    "express": "^4.13.4",
+    "express-bunyan-logger": "^1.2.0",
+    "lodash": "^4.1.0",
+    "mongoose": "^4.3.7",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "karma": "^0.13.19",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.4"
+  }
+}
